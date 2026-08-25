@@ -1,0 +1,9 @@
+from odoo import models, fields
+
+class EquipmentRisk(models.Model):
+    _name = 'equipment.risk'
+    _description = 'سجل مخاطر الجهاز'
+
+    name = fields.Char(string='اسم الجهاز', required=True)
+    working_hours = fields.Integer(string='ساعات التشغيل')
+    risk_level = fields.Char(string='نسبة الخطر المتوقعة')

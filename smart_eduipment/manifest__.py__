@@ -1,0 +1,12 @@
+[١٠:٢٤ م, ١٣‏/٨‏/٢٠٢٦] Faiz: pip install streamlit scikit-learn pandas
+[١٠:٣٨ م, ١٣‏/٨‏/٢٠٢٦] Faiz: {
+    'name': 'Smart Equipment Risk Prediction',
+    'version': '1.0',
+    'summary': 'تطبيق للتنبؤ بأعطال الأجهزة باستخدام الذكاء الاصطناعي',
+    'category': 'Operations',
+    'author': 'Faiz Al-Omari',
+    'depends': ['base'],
+    'data': [],
+    'installable': True,
+    'application': True,
+}
